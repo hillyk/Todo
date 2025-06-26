@@ -1,0 +1,79 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fef8f8;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.todo-container {
+  background: #ffffff;
+  padding: 25px;
+  width: 380px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #dd6b7b;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+#add-btn {
+  padding: 10px 15px;
+  background: #dd6b7b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#filter-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #fcecee;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  gap: 10px;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: #ff4b5c;
+  font-weight: bold;
+  cursor: pointer;
+}
